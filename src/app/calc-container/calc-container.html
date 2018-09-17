@@ -11,7 +11,7 @@
   </div>
   <div ng-repeat="buttonRow in calc.buttonSet">
     <md-button  ng-click="calc.buttonClick(button)" ng-repeat="button in buttonRow" button-object="{{button}}" class="md-raised md-primary">
-      <label>{{button.value}}</label>
+      <label>{{button.label}}</label>
     </md-button>
   </div>
 </div>
