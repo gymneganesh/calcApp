@@ -1,0 +1,13 @@
+.calc-container {
+  margin: 30px auto;
+}
+
+.calc-container button.md-primary{
+  background-color: #be0d00 !important;
+}
+
+.calc-container .accumlator label ,
+.calc-container .user-input label {
+  text-align: left;
+  display: block;
+}

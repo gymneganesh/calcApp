@@ -1,0 +1,32 @@
+{
+  "name": "calcapp",
+  "description": "sample calc application",
+  "main": "src/index.html",
+  "authors": [
+    "Nav <itznavaneeth@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "starter-kit"
+  ],
+  "homepage": ".",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-material": "^1.1.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.4"
+  }
+}

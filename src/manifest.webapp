@@ -1,0 +1,25 @@
+{
+  "version": "1.0.1",
+  "name": "calc app",
+  "launch_path": "/index.html",
+  "description": "sample calc application",
+  "icons": {
+    "128": "/images/icon-128x128.png"
+  },
+  "developer": {
+    "name": "Nav <itznavaneeth@gmail.com>",
+    "url": ""
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "calc app",
+      "description": "sample calc application"
+    }
+  }
+}
