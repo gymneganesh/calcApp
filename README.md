@@ -23,7 +23,7 @@ In order to start running your end-to-end tests, first start your web server wit
 
 npm start
 
-start e22 in new terminal and exec below command
+start e2e in new terminal and exec below command
 
 npm run protractor
 
