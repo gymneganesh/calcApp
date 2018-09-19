@@ -30,15 +30,18 @@ npm run protractor
 
 
 Calculator App components :
-
+-------------------------
 Homepage component (src/app/home/home.controller.js) :
+---------------------------------------------------------------------------
       - Act as the master template for the calculator application
       
       
 Page Header (src/app/page-header/page-header.directive.js)
+---------------------------------------------------------------------------
        - directive for the app header
        
 Calc container (src/app/calc-container/calc-container.directive.js)
+---------------------------------------------------------------------------
       - directive for the calculator 
       - performs all the required operation via a service component (calc-containerservice.js)
       
