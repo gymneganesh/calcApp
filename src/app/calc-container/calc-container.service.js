@@ -1,4 +1,3 @@
-
 (function() {
   'use strict';
 
@@ -9,12 +8,10 @@
   function CalcService() {
     var CalcService = {
       add: add,
-      clear: clear,
       divide: divide,
       multiply: multiply,
-      percent: percent,
-      sign: sign,
-      subtract: subtract
+      subtract: subtract,
+      mod: mod
     };
 
     return CalcService;
@@ -23,8 +20,8 @@
       return accum + value;
     }
 
-    function clear() {
-      return 0;
+    function mod(accum, value) {
+      return accum % value;
     }
 
     function divide(accum, value) {
@@ -35,16 +32,9 @@
       return accum * value;
     }
 
-    function percent(accum) {
-      return accum / 100;
-    }
-
-    function sign(accum) {
-      return accum * -1;
-    }
-
     function subtract(accum, value) {
       return accum - value;
     }
   }
+
 })();

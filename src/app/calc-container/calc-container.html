@@ -1,16 +1,17 @@
 <div  class="calc-container">
   <div layout="row">
-    <md-button class="md-raised accumlator" flex="100">
-      <label flex="100">{{calc.accum}}</label>
+    <md-button class="md-raised result" ng-disabled="true" flex="100">
+      <label flex="100">Result</label>
+      <label flex="100" class="total">{{calc.ledDisplay}}</label>
     </md-button>
   </div>
   <div class="row layout-row">
-    <md-button class="md-raised user-input" flex="100">
-      <label flex="100">{{calc.input}}</label>
+    <md-button class="md-raised result" ng-disabled="true" flex="100">
+      <label flex="100">Operation : {{calc.operationIcon}}</label>
     </md-button>
   </div>
   <div ng-repeat="buttonRow in calc.buttonSet">
-    <md-button  ng-click="calc.buttonClick(button)" ng-repeat="button in buttonRow" button-object="{{button}}" class="md-raised md-primary">
+    <md-button  ng-click="calc.buttonClick(button)" ng-repeat="button in buttonRow"  ng-class="'md-raised md-primary lbl-'+button.value">
       <label>{{button.label}}</label>
     </md-button>
   </div>

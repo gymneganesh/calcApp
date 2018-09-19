@@ -18,6 +18,8 @@ exports.config = {
     defaultTimeoutInterval: 30000
   },
 
+  directConnect:true,
+
   onPrepare: function() {
     var width = 800;
     var height = 800;

@@ -1,7 +1,7 @@
 
 'use strict';
 
-describe('Directive: backButton', function() {
+describe('Directive: pageHeader', function() {
   var $compile;
   var $rootScope;
   var element;
@@ -19,6 +19,6 @@ describe('Directive: backButton', function() {
     element = $compile('<page-header></page-header>')($rootScope);
     $rootScope.$digest();
     expect(1).toBe(1);
-    expect(element.html()).toContain('Angular Starter Kit');
+    expect(element.html()).toContain('Calculator app');
   });
 });
